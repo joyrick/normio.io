@@ -161,3 +161,8 @@ function hideImageFullscreen() {
   const overlay = document.getElementById("fullscreenOverlay");
   overlay.style.display = "none";
 }
+
+function formLink() {
+  // const form_btn = document.getElementById("formButton");
+  window.location.href='https://forms.gle/15XEt4eaq78dm2FD9';
+}
