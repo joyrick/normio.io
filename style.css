@@ -177,7 +177,7 @@ button {
 }
 
 .image-btn {
-    background-image: url('images/gradient.png'); /* replace with your image path */
+    background-image: url('images/gradient.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -194,7 +194,29 @@ button {
   }
   
   .image-btn:hover {
-    transform: scale(1.05); /* slight hover zoom */
+    transform: scale(1.05); 
+  }
+
+  .form-btn {
+    background-color: transparent; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1vh;
+  
+    color: white;
+    font-size: 1vmax;
+    padding: 0.5vmax 2vmax;
+    border: 1px, solid white;
+    border-radius: 1rem;
+    cursor: pointer;
+  
+    transition: transform 0.3s ease;
+  }
+  
+  .form-btn:hover {
+    transform: scale(1.05); 
+    background-image: url('images/gradient.png');
   }
 
 .bottom{
