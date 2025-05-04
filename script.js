@@ -162,7 +162,7 @@ function hideImageFullscreen() {
   overlay.style.display = "none";
 }
 
-function formLink {
+function formLink() {
   // const form_btn = document.getElementById("formButton");
   window.location.href='https://forms.gle/15XEt4eaq78dm2FD9';
 }
