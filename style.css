@@ -198,13 +198,13 @@ button {
   }
 
   .form-btn {
-    background-color: transparent; 
+    background-color: white; 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 1vh;
   
-    color: white;
+    color: #111;
     font-size: 1vmax;
     padding: 0.5vmax 2vmax;
     border: 1px, solid white;
@@ -217,6 +217,7 @@ button {
   .form-btn:hover {
     transform: scale(1.05); 
     background-image: url('images/gradient.png');
+    color: #111;
   }
 
 .bottom{
