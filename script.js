@@ -162,17 +162,7 @@ function hideImageFullscreen() {
   overlay.style.display = "none";
 }
 
-function showImageFullscreen2() {
-  const overlay2 = document.getElementById("fullscreenOverlay2");
-  overlay2.style.display = "flex";
-}
-
-function hideImageFullscreen2() {
-  const overlay2 = document.getElementById("fullscreenOverlay2");
-  overlay2.style.display = "none";
-}
-
-function formLink() {
+function formLink {
   // const form_btn = document.getElementById("formButton");
   window.location.href='https://forms.gle/15XEt4eaq78dm2FD9';
 }
